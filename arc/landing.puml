@@ -1,0 +1,67 @@
+@startsalt
+  {
+    {
+      .|Curriculum Vitae|.
+      .| $profesionista.nombre | .
+      .|Contacto | $profesionista.contacto
+    }
+    .
+    {
+      Estudios|.
+      {
+        $educacion.inicio - $educacion.termino | $educacion.instituto
+        .|$educacion.grado
+      }
+
+    }
+    .
+    {
+      Experiencia laboral | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    {
+      Actividades extracurriculares | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Publicaciones | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Distinciones | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Idiomas | .
+      {
+        {Idioma | Expertiz }
+      }
+    }
+    {
+      Conocimientos técnicos | .
+      {
+        {Categoria | Expertiz | Habilidad}
+      }
+    }
+    .
+    {
+      Áreas de ínteres
+      { Pasatiempo 1 | Pasatiempo 2 | Pasatiempo 3}
+    }
+  }
+@endsalt

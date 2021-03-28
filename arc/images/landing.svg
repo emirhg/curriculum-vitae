@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="524px" preserveAspectRatio="none" style="width:392px;height:524px;" version="1.1" viewBox="0 0 392 524" width="392px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="102" x="13" y="18.1387">Curriculum Vitae</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="142" x="13" y="34.1074">$profesionista.nombre</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="13" y="50.0762">Contacto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="150" x="157" y="50.0762">$profesionista.contacto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="7" y="84.0137">Estudios</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="246" x="8" y="100.9824">$educacion.inicio - $educacion.termino</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="129" x="256" y="100.9824">$educacion.instituto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="256" y="116.9512">$educacion.grado</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="7" y="151.8887">Experiencia laboral</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="8" y="168.8574">Enero 1979 - Actual</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="134" y="168.8574">$razon_social</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="143" x="134" y="184.8262">$razon_social.proyecto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="181" x="7" y="203.7949">Actividades extracurriculares</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="8" y="220.7637">Enero 1979 - Actual</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="134" y="220.7637">$razon_social</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="143" x="134" y="236.7324">$razon_social.proyecto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="7" y="271.6699">Publicaciones</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="8" y="288.6387">Enero 1979 - Actual</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="134" y="288.6387">$razon_social</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="143" x="134" y="304.6074">$razon_social.proyecto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="7" y="339.5449">Distinciones</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="8" y="356.5137">Enero 1979 - Actual</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="134" y="356.5137">$razon_social</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="143" x="134" y="372.4824">$razon_social.proyecto</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="7" y="407.4199">Idiomas</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="9" y="425.3887">Idioma</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="52" y="425.3887">Expertiz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="149" x="7" y="445.3574">Conocimientos técnicos</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="61" x="9" y="463.3262">Categoria</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="72" y="463.3262">Expertiz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="122" y="463.3262">Habilidad</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="104" x="7" y="499.2637">Áreas de ínteres</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="8" y="516.2324">Pasatiempo 1</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="96" y="516.2324">Pasatiempo 2</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="184" y="516.2324">Pasatiempo 3</text><!--MD5=[aa91dbb9b102654db7665a6991bb3110]
+@startsalt
+  {
+    {
+      .|Curriculum Vitae|.
+      .| $profesionista.nombre | .
+      .|Contacto | $profesionista.contacto
+    }
+    .
+    {
+      Estudios|.
+      {
+        $educacion.inicio - $educacion.termino | $educacion.instituto
+        .|$educacion.grado
+      }
+
+    }
+    .
+    {
+      Experiencia laboral | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    {
+      Actividades extracurriculares | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Publicaciones | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Distinciones | .
+      {
+        Enero 1979 - Actual | $razon_social
+        .|  $razon_social.proyecto
+      }
+    }
+    .
+    {
+      Idiomas | .
+      {
+        {Idioma | Expertiz }
+      }
+    }
+    {
+      Conocimientos técnicos | .
+      {
+        {Categoria | Expertiz | Habilidad}
+      }
+    }
+    .
+    {
+      Áreas de ínteres
+      { Pasatiempo 1 | Pasatiempo 2 | Pasatiempo 3}
+    }
+  }
+@endsalt
+
+PlantUML version 1.2020.17(Sat Sep 19 07:30:11 CDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
