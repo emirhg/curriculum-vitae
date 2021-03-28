@@ -33,9 +33,9 @@
     + nombre: String
   }
 
-  Evidencia <|-- Hito
+  Evidencia <-- Hito
 
-  Periodo <|-- Hito
+  Periodo <-- Hito
 
   enum Expertiz {
       BASICO
@@ -63,14 +63,14 @@
     GPS
   }
 
-  Medio <|-- Canal
+  Medio <-- Canal
 
-  Nombre --|> Profesionista
-  Canal --|> Profesionista
-  Habilidad --|> Profesionista
-  Hito --|> Profesionista
+  Nombre <-- Profesionista
+  Canal <-- Profesionista
+  Habilidad <-- Profesionista
+  Hito <-- Profesionista
 
-  Testigo <|-- Hito
+  Testigo <-- Hito
 
-  Expertiz <|-- Habilidad
+  Expertiz <-- Habilidad
 @enduml
