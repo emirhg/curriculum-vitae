@@ -8,7 +8,7 @@ Aplicación de una sola página para desplegar en formato HTML el CV de un profe
 
 ## Arquitectura
 
-![Diagrama de clases][classess]
+![Diagrama de clases][classes]
 
 [wireframe]: ./arc/images/landing.svg "Wireframe"
-[classess]: ./arc/images/classess.svg "Clases"
+[classes]: ./arc/images/classes.svg "Clases"
