@@ -1,0 +1,76 @@
+@startuml
+  class Profesionista {
+    + nombre: Nombre
+    + canal: Canal[]
+    + hitos: Hito[]
+    + habilidades: Habilidad[]
+  }
+
+  class Habilidad {
+    + categoria: String
+    + nombre: String
+    + expertiz: Expertiz
+  }
+
+  class Periodo {
+    + fecha_inicio: Date
+    + fecha_termino: Date
+  }
+
+  class Hito {
+    + categoria: String
+    + periodo: Periodo
+    + testigo: Testigo
+    + actividad: String
+    + evidencia: Evidencia
+  }
+
+  class Evidencia {
+    + data : URL | Bloob
+  }
+
+  class Testigo {
+    + nombre: String
+  }
+
+  Evidencia <|-- Hito
+
+  Periodo <|-- Hito
+
+  enum Expertiz {
+      BASICO
+      INTERMEDIO
+      AVANZADO
+      EXPERTO
+  }
+
+  class Nombre {
+    + nombre: String
+    + apellido_paterno: String
+    + apellido_materno: String
+  }
+
+  interface Canal{
+      + tipo: Medio
+      + valor: String
+  }
+
+  enum Medio {
+    EMAIL
+    TELEFONO
+    DIRECCION_POSTAL
+    WEB
+    GPS
+  }
+
+  Medio <|-- Canal
+
+  Nombre --|> Profesionista
+  Canal --|> Profesionista
+  Habilidad --|> Profesionista
+  Hito --|> Profesionista
+
+  Testigo <|-- Hito
+
+  Expertiz <|-- Habilidad
+@enduml
