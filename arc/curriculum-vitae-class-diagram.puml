@@ -1,0 +1,112 @@
+@startuml
+  class CurriculumVitae {
+    + persona: Persona
+    + hito: Hito[]
+    + habilidad: Habilidad[]
+    + interes: Interes[]
+  }
+
+  enum TipoCategoria {
+    ACADEMIA
+    LABORAL
+    EXTRACURRICULAR
+    PUBLICACION
+    DISTINCION
+  }
+
+  class Interes {
+    nombre: String
+  }
+
+  class Categorizable {
+    tipo: TipoCategoria
+    nombre: String
+  }
+
+  class Habilidad extends Categorizable {
+    + nombre: String
+    + expertis: Expertis
+  }
+
+  class Periodo {
+    + inicio: Dia
+    + termino: Dia
+  }
+
+  Dia -- Date
+
+  class Hito extends Categorizable {
+    + fecha: Periodo | Dia
+    + testigo: Persona | Organizacion
+    + nombre: String
+    + evidencia: Evidencia
+  }
+
+  class URL {
+    query_string: String
+  }
+
+  class Evidencia {
+    + vinculo : URL
+    + data: Bloob
+  }
+
+  class Organizacion {
+    razon_social: String
+  }
+
+  enum Expertis {
+      BASICO
+      INTERMEDIO
+      AVANZADO
+      EXPERTO
+  }
+
+  class Persona {
+    + identificacion: Identificacion
+    + contacto: Contacto[]
+  }
+
+  class Identificacion {
+    + nombre: String
+    + apellido_paterno: String
+    + apellido_materno: String
+  }
+
+  interface Contacto {
+      + medio: Medio
+      + valor: String
+  }
+
+  enum Medio {
+    GPS
+    SERVICIO_POSTAL
+    CORREO_ELECTRONICO
+    TELEFONO
+    HIPERTEXTO
+  }
+
+  Periodo <-- Dia
+
+  Evidencia <-- URL
+
+  Contacto <-- Medio
+
+  Persona <-- Contacto
+  Persona <-- Identificacion
+
+  Categorizable <-- TipoCategoria
+
+  CurriculumVitae <-- Persona
+  CurriculumVitae <-- Habilidad
+  CurriculumVitae <-- Hito
+  CurriculumVitae <-- Interes
+
+  Habilidad <-- Expertis
+
+  Hito <-- Evidencia
+  Hito <-- Persona
+  Hito <-- Organizacion
+  Hito <-- Dia
+  Hito <-- Periodo
+@enduml
