@@ -43,7 +43,7 @@
     + data: Bloob
   }
 
-  class Organizacion {
+  class Organizacion extends Contactable {
     razon_social: string
   }
 
@@ -54,10 +54,13 @@
       EXPERTO
   }
 
-  class Persona {
+  class Persona extends Contactable {
     + nombre: string
     + apellido_paterno: string
     + apellido_materno: string
+  }
+
+  class Contactable {
     + contacto: Contacto[]
   }
 
@@ -74,18 +77,14 @@
     HIPERTEXTO
   }
 
-  Periodo <-- Date
-
-  Evidencia <-- URL
-
   Contacto <-- Medio
-
-  Persona <-- Contacto
 
   CurriculumVitae <-- Persona
   CurriculumVitae <-- Habilidad
   CurriculumVitae <-- Hito
   CurriculumVitae <-- Interes
+
+  Evidencia <-- URL
 
   Habilidad <-- Expertis
   Habilidad <-- Priorizable
@@ -96,4 +95,8 @@
   Hito <-- Organizacion
   Hito <-- Date
   Hito <-- Periodo
+
+  Contactable <-- Contacto
+
+  Periodo <-- Date
 @enduml
