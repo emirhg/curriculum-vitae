@@ -1,49 +1,41 @@
 @startuml
   class CurriculumVitae {
     + persona: Persona
-    + hito: Hito[]
-    + habilidad: Habilidad[]
-    + interes: Interes[]
-  }
-
-  enum TipoCategoria {
-    ACADEMIA
-    LABORAL
-    EXTRACURRICULAR
-    PUBLICACION
-    DISTINCION
+    + hitos: Hito[]
+    + habilidades: Habilidad[]
+    + intereses: Interes[]
   }
 
   class Interes {
-    nombre: String
+    tema: string
   }
 
-  class Categorizable {
-    tipo: TipoCategoria
-    nombre: String
+  class Priorizable {
+    nombre: string
+    prioridad: integer
   }
 
-  class Habilidad extends Categorizable {
-    + nombre: String
+  class Habilidad {
+    + nombre: string
     + expertis: Expertis
+    + categoria: Priorizable
   }
 
   class Periodo {
-    + inicio: Dia
-    + termino: Dia
+    + inicio: Date
+    + termino: Date
   }
 
-  Dia -- Date
-
-  class Hito extends Categorizable {
-    + fecha: Periodo | Dia
+  class Hito {
+    + fecha: Periodo | Date
     + testigo: Persona | Organizacion
-    + nombre: String
+    + acontecimiento: string
     + evidencia: Evidencia
+    + categoria: Priorizable
   }
 
   class URL {
-    query_string: String
+    query_string: string
   }
 
   class Evidencia {
@@ -52,7 +44,7 @@
   }
 
   class Organizacion {
-    razon_social: String
+    razon_social: string
   }
 
   enum Expertis {
@@ -63,19 +55,15 @@
   }
 
   class Persona {
-    + identificacion: Identificacion
+    + nombre: string
+    + apellido_paterno: string
+    + apellido_materno: string
     + contacto: Contacto[]
-  }
-
-  class Identificacion {
-    + nombre: String
-    + apellido_paterno: String
-    + apellido_materno: String
   }
 
   interface Contacto {
       + medio: Medio
-      + valor: String
+      + valor: string
   }
 
   enum Medio {
@@ -86,16 +74,13 @@
     HIPERTEXTO
   }
 
-  Periodo <-- Dia
+  Periodo <-- Date
 
   Evidencia <-- URL
 
   Contacto <-- Medio
 
   Persona <-- Contacto
-  Persona <-- Identificacion
-
-  Categorizable <-- TipoCategoria
 
   CurriculumVitae <-- Persona
   CurriculumVitae <-- Habilidad
@@ -103,10 +88,12 @@
   CurriculumVitae <-- Interes
 
   Habilidad <-- Expertis
+  Habilidad <-- Priorizable
 
+  Hito <-- Priorizable
   Hito <-- Evidencia
   Hito <-- Persona
   Hito <-- Organizacion
-  Hito <-- Dia
+  Hito <-- Date
   Hito <-- Periodo
 @enduml
