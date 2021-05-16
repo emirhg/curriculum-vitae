@@ -1,67 +1,73 @@
 @startsalt
   {
     {
-      .|Curriculum Vitae|.
-      .| $profesionista.nombre | .
-      .|Contacto | $profesionista.contacto
+      =Curriculum Vitae
+      .| Ele Trado | .
+      .|Contacto | eletrado@internet.wii
     }
     .
     {
-      Estudios|.
+      =Estudios|.
       {
-        $educacion.inicio - $educacion.termino | $educacion.instituto
-        .|$educacion.grado
+        01/Enero/2021 - Actual | Instituto Educativo de Aquí
+        .| Certíficado para hacer cosas chidas
       }
-
-    }
-    .
-    {
-      Experiencia laboral | .
       {
-        Enero 1979 - Actual | $razon_social
-        .|  $razon_social.proyecto
-      }
-    }
-    {
-      Actividades extracurriculares | .
-      {
-        Enero 1979 - Actual | $razon_social
-        .|  $razon_social.proyecto
+        01/Enero/2020 - Actual | Instituto Educativo de Ayá
+        .| Sabio
       }
     }
     .
     {
-      Publicaciones | .
+      =Experiencia laboral | .
       {
-        Enero 1979 - Actual | $razon_social
-        .|  $razon_social.proyecto
+        Enero 1979 - Actual | Corporación Respetable
+        .|  Cosas de TI
+      }
+    }
+    {
+      ==Actividades extracurriculares | .
+      {
+        Enero 1980 - Actual | El Mundo
+        .|  Reforestación con marihuana
       }
     }
     .
     {
-      Distinciones | .
+      =Publicaciones | .
       {
-        Enero 1979 - Actual | $razon_social
-        .|  $razon_social.proyecto
+        Enero 2000 | Publicaciones Chingonas
+        .|  Las cosas que deberias saber
       }
     }
     .
     {
-      Idiomas | .
-      {
-        {Idioma | Expertiz }
-      }
-    }
-    {
-      Conocimientos técnicos | .
-      {
-        {Categoria | Expertiz | Habilidad}
-      }
+      ==Distinciones
+      Enero 2020 | Concurso de gente chingona
+      .|  Primer lugar de gente chingona
     }
     .
     {
-      Áreas de ínteres
-      { Pasatiempo 1 | Pasatiempo 2 | Pasatiempo 3}
+      ==Idiomas
+      { * Español | Nativo }
+    }
+    .
+    {
+      ==Conocimientos técnicos
+      ===Sistemas Operativos
+      .| Linux | Administrador
+      ===Lenguajes de programación
+      .| C++ | Avanzado
+    }
+    .
+    {
+      ===Áreas de interés
+      .|{ * Inteligencia Artificial | * Domótica | * Economía }
+    }
+    .
+    {
+      ===Pasatiempos
+      .|{ * Conquistar el mundo | * Agricultura | * Astronomía }
     }
   }
 @endsalt
