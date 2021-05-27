@@ -1,73 +1,43 @@
 @startsalt
-  {
-    {
-      =Curriculum Vitae
-      .| Ele Trado | .
-      .|Contacto | eletrado@internet.wii
-    }
-    .
-    {
-      =Estudios|.
-      {
-        01/Enero/2021 - Actual | Instituto Educativo de Aquí
-        .| Certíficado para hacer cosas chidas
-      }
-      {
-        01/Enero/2020 - Actual | Instituto Educativo de Ayá
-        .| Sabio
-      }
-    }
-    .
-    {
-      =Experiencia laboral | .
-      {
-        Enero 1979 - Actual | Corporación Respetable
-        .|  Cosas de TI
-      }
-    }
-    {
-      ==Actividades extracurriculares | .
-      {
-        Enero 1980 - Actual | El Mundo
-        .|  Reforestación con marihuana
-      }
-    }
-    .
-    {
-      =Publicaciones | .
-      {
-        Enero 2000 | Publicaciones Chingonas
-        .|  Las cosas que deberias saber
-      }
-    }
-    .
-    {
-      ==Distinciones
-      Enero 2020 | Concurso de gente chingona
-      .|  Primer lugar de gente chingona
-    }
-    .
-    {
-      ==Idiomas
-      { * Español | Nativo }
-    }
-    .
-    {
-      ==Conocimientos técnicos
-      ===Sistemas Operativos
-      .| Linux | Administrador
-      ===Lenguajes de programación
-      .| C++ | Avanzado
-    }
-    .
-    {
-      ===Áreas de interés
-      .|{ * Inteligencia Artificial | * Domótica | * Economía }
-    }
-    .
-    {
-      ===Pasatiempos
-      .|{ * Conquistar el mundo | * Agricultura | * Astronomía }
-    }
-  }
+
+{
+  .|=Curriculum Vitae
+  .| .|Ele Trado
+  .|. | nomellames_yotellamo@midominionoesdeestemundo.localdomain
+  =Estudios
+    .|01/Enero/2021 - Actual | Instituto Educativo de Aquí
+    .|.| Certíficado de conocimiento en ciencias ocultas
+  =Experiencia laboral | .
+    .|Enero 1979 - Actual | Corporación Respetable
+    .|.| Cosas rentables
+  ==Actividades extracurriculares | .
+    .|Enero 1980 - Actual | El Mundo
+    .|.|  Reforestación con marihuana
+  =Publicaciones | .
+    .|Enero 2000 | Publicaciones Chingonas
+    .|.|  10 cosas que deberias lograr antes de cumplir 150 años
+  ==Distinciones
+    .| Enero 2020 | Concurso de gente chingona
+    .| .| Primer lugar de gente chingona
+  ==Idiomas
+    . | * Español | Nativo
+    . | * Albur | Fluido
+  ==Conocimientos técnicos
+  ===Sistemas Operativos
+  .| Linux | Administrador
+  ===Lenguajes de programación
+  .| C++ | Avanzado
+  ===Frameworks
+  .| El de moda | Experto
+  .| {El más reciente
+    de código abierto}| Desarrolador novato
+  ===Áreas de interés
+    .| * Inteligencia Artificial | * Domótica
+    .| * Economía
+  ===Pasatiempos
+    .| * Conquistar el mundo | * Agricultura
+    .| * Astronomía | { * Acariciar animales ferales ante el embelezante
+      vislumbre del inevitable colapso de la
+      arrogante civilización moderna. }
+}
 @endsalt
