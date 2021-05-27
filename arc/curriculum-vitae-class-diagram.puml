@@ -70,7 +70,7 @@
     + contacto: Contacto[]
   }
 
-  interface Contacto {
+  class Contacto {
       + medio: Medio
       + valor: string
   }
