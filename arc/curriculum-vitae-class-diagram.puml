@@ -75,6 +75,12 @@
       + valor: string
   }
 
+  interface Date {
+    timestamp: integer
+    Date(date: string)
+    toString()
+  }
+
   enum Medio {
     GPS
     SERVICIO_POSTAL
