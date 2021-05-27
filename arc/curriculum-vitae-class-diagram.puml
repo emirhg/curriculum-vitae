@@ -10,7 +10,7 @@
     tema: string
   }
 
-  class Priorizable {
+  class Categoria {
     nombre: string
     prioridad: integer
   }
@@ -18,7 +18,8 @@
   class Habilidad {
     + nombre: string
     + expertis: Expertis
-    + categoria: Priorizable
+    + rol: Rol
+    + categoria: Categoria
   }
 
   class Periodo {
@@ -31,7 +32,7 @@
     + testigo: Persona | Organizacion
     + acontecimiento: string
     + evidencia: Evidencia
-    + categoria: Priorizable
+    + categoria: Categoria
   }
 
   class URL {
@@ -99,10 +100,10 @@
   Evidencia <-- URL
 
   Habilidad <-- Expertis
-  Habilidad <-- Priorizable
   Habilidad <-- Rol
+  Habilidad <-- Categoria
 
-  Hito <-- Priorizable
+  Hito <-- Categoria
   Hito <-- Evidencia
   Hito <-- Persona
   Hito <-- Organizacion
