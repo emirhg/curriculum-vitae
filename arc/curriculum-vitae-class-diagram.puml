@@ -54,6 +54,12 @@
       EXPERTO
   }
 
+  enum Rol {
+      USUARIO
+      ADMINISTRADOR
+      DESARROLLADOR
+  }
+
   class Persona extends Contactable {
     + nombre: string
     + apellido_paterno: string
@@ -88,6 +94,7 @@
 
   Habilidad <-- Expertis
   Habilidad <-- Priorizable
+  Habilidad <-- Rol
 
   Hito <-- Priorizable
   Hito <-- Evidencia
