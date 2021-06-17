@@ -1,0 +1,16 @@
+\section{Requerimientos del sistema}
+  Facilitar a un profesionista; divulgar mediante un repositorio de datos, gestionado con `git`, eventos relevantes de su vida profesional. Categorizados según su ambito académico o profesional y ordenados cronológicamente.
+
+  Se cuenta con un enfoque de diseño MVC (Modelo, Vista, Controlador) soportado por el marco de trabajo provisto por Ionic. Apoyandose de Github Pages, se facilita una Integración Continua con la web.
+
+\subsection{Internacionalización}
+  Desplegar el contenido en la lengua local del usuario
+
+\subsection{Liga de contacto}
+  El Curriculum Vitae proporciona un vínculo para poder contactar al profesionista via correo electrónico o lamada telefónica. El correo eletrónico y el teléfono del profesionista se muestra ofuscado a los robots cómo una medida para prevenir el correo no solicitado.
+
+\subsection{Clasificación de eventos}
+  Usando cómo fuente de datos una lista de acontecimeintos en la vida de un profesionista, estos deberán poder clasificarse  en dos principales rubros: "Academia" y "Vida Profesional". Dicha lista se códifica en un arreglo de datos en formato JSON.
+
+\subsection{Orden cronológico}
+  Dentro de cada categoría, los eventos siguen un orden cronológico, siendo el primero el más reciente. El órden de las categorias Academia/Profesión, es dinámico y dependiente de la fecha de inicio del hito más reciente.
